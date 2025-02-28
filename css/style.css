@@ -283,3 +283,37 @@ img {
   margin-right: 84px;
 }
 /* #endregion Specification */
+/* #region Process */
+.process {
+  padding-bottom: 50px;
+}
+.process-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  max-width: 348px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.process-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #22343d;
+  max-width: 542px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.prc-item {
+  display: flex;
+  align-items: center;
+}
+.prc-text-sml {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #2f281e;
+}
+/* #endregion Process */
