@@ -421,3 +421,41 @@ img {
   gap: 64px;
 }
 /* #endregion Feedback */
+/* #region Promo */
+
+.promo {
+  padding-bottom: 50px;
+}
+
+.promo-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #000;
+  max-width: 510px;
+  padding-top: 150px;
+}
+
+.promo-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-img {
+  padding-top: 104px;
+  margin-left: 10px;
+}
+
+.promo-btn {
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  margin: 46px 360px 56px 50px;
+}
+
+/* #endregion Promo */
