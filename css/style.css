@@ -159,7 +159,7 @@ img {
 /* #endregion Hero */
 /* #region Product */
 .product {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .product-title {
@@ -208,6 +208,11 @@ img {
 }
 /* #endregion Product */
 /* #region Specification */
+.section-three {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
 .specification-text {
   font-weight: 600;
   font-size: 16px;
@@ -360,6 +365,7 @@ img {
 /* #endregion Process */
 /* #region Strategies */
 .strategies {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
