@@ -515,6 +515,98 @@ img {
   font-weight: 400;
   margin-bottom: 16px;
 }
+
+.price-zero {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+
+.currency {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  vertical-align: super;
+  margin-left: 7px;
+  color: #02897a;
+}
+
+.per-month {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  margin-left: -20px;
+  color: #afafaf;
+}
+
+.card-list {
+  padding: 16px 0 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.37;
+  letter-spacing: 0.01em;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.green-item {
+  background-color: #02897a;
+  color: #fff;
+}
+
+.price-green {
+  color: #fff;
+}
+
+.price-white {
+  color: #e0e0e0;
+}
+
+.price-btn {
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: #02897a;
+  border: 2px solid transparent;
+
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  transition: 250ms ease-in-out;
+}
+
+.price-btn:hover,
+.price-btn:focus {
+  background-color: #fff;
+  color: #02897a;
+  border-color: #02897a;
+}
+
+.white-btn {
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: #fff;
+  border: 2px solid #02897a;
+
+  font-weight: 600;
+  font-size: 18px;
+  color: #02897a;
+  transition: 250ms ease-in-out;
+}
+
+.white-btn:hover,
+.white-btn:focus {
+  background-color: #02897a;
+  color: #fff;
+  border-color: #fff;
+}
 /* #endregion Price */
 /* #region Feedback */
 .feedback {
