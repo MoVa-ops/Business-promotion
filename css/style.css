@@ -366,7 +366,7 @@ img {
 /* #region Strategies */
 .strategies {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .strategies-list {
@@ -464,7 +464,12 @@ img {
 /* #endregion Strategies */
 /* #region Price */
 .price {
+  padding-top: 70px;
   padding-bottom: 50px;
+}
+
+.price-container {
+  text-align: center;
 }
 
 .price-title {
@@ -486,9 +491,29 @@ img {
 
 .price-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 72px;
+}
+
+.price-item {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 144px) / 3);
+  padding: 32px 0;
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.price-item-title {
+  margin-bottom: 8px;
+}
+
+.price-item-text {
+  line-height: 2.5;
+  font-weight: 400;
+  margin-bottom: 16px;
 }
 /* #endregion Price */
 /* #region Feedback */
